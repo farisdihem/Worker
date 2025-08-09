@@ -1,6 +1,6 @@
 export default {
   async fetch(request) {
-    const API_KEY = "YOUR_API_KEY_HERE"; // ← ضع مفتاحك هنا
+    const API_KEY = "sk-pIpTyWr9zjIvM65KSLqSFYmz35how6XSK8JKAnCmNcawVmhO"; // ← ضع مفتاحك هنا
 
     if (request.method === "OPTIONS") {
       return new Response(null, {
